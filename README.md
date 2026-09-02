@@ -1,22 +1,21 @@
-# Midway Mayhem
+# Nael Abuasi - Portfolio
 
-A small, browser-based carnival target game created for BUSFIN 4215.
+A mobile-first finance and analytics portfolio built for recruiter visits and business-card QR codes.
 
-## Play locally
+## Live site
 
-Open `index.html` in any modern web browser. Click **Start Playing**, hit the targets for tickets, and beat 150 tickets before the 30-second round ends.
+https://naelabuasi.github.io/midway-mayhem/
 
-## Project files
+## Local preview
 
-- `index.html` — complete game; no dependencies or build step required
-- `BUILD_LOG.md` — concise AI/build log and verification checklist
-- `UNFAMILIAR_USER_TEST.md` — record of the required user test and revision
+Open `index.html` in any modern browser. The site has no build step or package dependencies.
 
-## Publish with GitHub Pages
+## Updating the headshot
 
-1. Create a **public** GitHub repository named `midway-mayhem`.
-2. Upload these project files, or push this local repository to GitHub.
-3. On GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, then choose branch `main` and folder `/(root)`.
-5. Save. GitHub will show the public game URL, normally `https://YOUR-USERNAME.github.io/midway-mayhem/`.
-6. Confirm the link in a private/incognito window before submitting.
+Add a professional portrait named `nael-abuasi.jpg`, then replace the monogram inside `.portrait` in `index.html` with:
+
+```html
+<img src="nael-abuasi.jpg" alt="Nael Abuasi" width="460" height="575">
+```
+
+Add `.portrait img{width:100%;height:100%;object-fit:cover}` to the page styles.
