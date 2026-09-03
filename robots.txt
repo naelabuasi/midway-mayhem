@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naelabuasi.github.io/midway-mayhem/sitemap.xml
